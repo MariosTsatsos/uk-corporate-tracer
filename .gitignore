@@ -1,0 +1,54 @@
+# Configuration — contains API keys and personal data. NEVER commit.
+config.py
+
+# Original case briefing — contains real names and case details. NEVER commit.
+BRIEFING.md
+
+# Claude Code workspace files
+.claude/
+
+# Databases — large local files, not for version control
+asset_discovery.db
+asset_discovery.db-shm
+asset_discovery.db-wal
+ch_bulk.db
+
+# Land Registry bulk data files — multi-GB, download separately
+*.csv
+*.txt
+!requirements.txt
+
+# Output files and case-specific working folders — never sync
+output/
+logs/
+DMFJAM docs/
+CH_Accounts/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+.venv/
+env/
+.env
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
