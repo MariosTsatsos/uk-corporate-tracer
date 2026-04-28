@@ -64,8 +64,8 @@ Step 5  Local files → CCOD/OCOD Land Registry scan → properties
 
 - Python 3.9+
 - A free [Companies House API key](https://developer.company-information.service.gov.uk/)
+- Alternatively, Companies House Bulk Data — see [Data Setup](#data-setup) below
 - Land Registry bulk datasets — see [Data Setup](#data-setup) below
-- CH Bulk Data — see [Data Setup](#data-setup) below
 
 ---
 
